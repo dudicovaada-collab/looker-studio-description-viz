@@ -1,12 +1,7 @@
 {
   "name": "Knob Bubble Annotation",
-  "organization": "Your Company",
+  "organization": "AD Marketing",
   "description": "Icon knob with configurable bubble annotation",
-  "logoUrl": "",
-  "supportUrl": "",
-  "packageUrl": "",
-  "privacyPolicyUrl": "",
-  "termsOfServiceUrl": "",
   "visualizations": [
     {
       "id": "knob_bubble_annotation",
