@@ -1,0 +1,116 @@
+{
+  "visualization": {
+    "id": "knob_bubble_annotation",
+    "label": "Knob + Bubble Annotation",
+    "description": "Icon knob with configurable bubble annotation",
+    "data": {
+      "dimensions": [],
+      "metrics": []
+    },
+    "style": {
+      "knob": {
+        "label": "Knob Content",
+        "elements": {
+          "icon": {
+            "type": "SELECT_SINGLE",
+            "label": "Icon",
+            "defaultValue": "?",
+            "options": [
+              { "value": "?", "label": "Question Mark (?)" },
+              { "value": "!", "label": "Exclamation Mark (!)" }
+            ]
+          },
+          "fontFamily": {
+            "type": "FONT_FAMILY",
+            "label": "Font Family"
+          },
+          "fontSize": {
+            "type": "NUMBER",
+            "label": "Font Size",
+            "defaultValue": 16
+          },
+          "fontColor": {
+            "type": "COLOR",
+            "label": "Font Color",
+            "defaultValue": "#ffffff"
+          },
+          "backgroundColor": {
+            "type": "COLOR",
+            "label": "Background Color",
+            "defaultValue": "#4285F4"
+          },
+          "borderRadius": {
+            "type": "NUMBER",
+            "label": "Border Radius",
+            "defaultValue": 50
+          }
+        }
+      },
+      "bubble": {
+        "label": "Bubble Content",
+        "elements": {
+          "text": {
+            "type": "TEXT",
+            "label": "Bubble Text",
+            "defaultValue": "This is an annotation bubble."
+          },
+          "fontFamily": {
+            "type": "FONT_FAMILY",
+            "label": "Font Family"
+          },
+          "fontSize": {
+            "type": "NUMBER",
+            "label": "Font Size",
+            "defaultValue": 14
+          },
+          "fontColor": {
+            "type": "COLOR",
+            "label": "Font Color",
+            "defaultValue": "#000000"
+          },
+          "backgroundColor": {
+            "type": "COLOR",
+            "label": "Background Color",
+            "defaultValue": "#ffffff"
+          },
+          "borderRadius": {
+            "type": "NUMBER",
+            "label": "Border Radius",
+            "defaultValue": 8
+          },
+          "padding": {
+            "type": "NUMBER",
+            "label": "Padding",
+            "defaultValue": 8
+          }
+        }
+      },
+      "behavior": {
+        "label": "Behavior",
+        "elements": {
+          "position": {
+            "type": "RADIO",
+            "label": "Knob Position",
+            "defaultValue": "top-left",
+            "options": [
+              { "value": "top-left", "label": "Top Left" },
+              { "value": "top-right", "label": "Top Right" },
+              { "value": "bottom-left", "label": "Bottom Left" },
+              { "value": "bottom-right", "label": "Bottom Right" }
+            ]
+          },
+          "visibility": {
+            "type": "RADIO",
+            "label": "Bubble Visibility",
+            "defaultValue": "hover",
+            "options": [
+              { "value": "always", "label": "Always" },
+              { "value": "never", "label": "Never" },
+              { "value": "hover", "label": "On Hover" }
+            ]
+          }
+        }
+      }
+    }
+  }
+}
