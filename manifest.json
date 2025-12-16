@@ -1,14 +1,17 @@
 {
   "name": "Knob Bubble Annotation",
-  "organization": "Custom",
+  "organization": "Your Company",
   "description": "Icon knob with configurable bubble annotation",
   "logoUrl": "",
   "supportUrl": "",
   "packageUrl": "",
   "privacyPolicyUrl": "",
   "termsOfServiceUrl": "",
-  "resources": {
-    "js": ["index.js"],
-    "css": ["index.css"]
-  }
+  "visualizations": [
+    {
+      "id": "knob_bubble_annotation",
+      "label": "Knob + Bubble Annotation",
+      "url": "index.json"
+    }
+  ]
 }
